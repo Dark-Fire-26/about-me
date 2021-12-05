@@ -32,8 +32,54 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family: "Comfortaa";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 </style>
   <body>
+<div class="container">
+  <img src="IMG_4350.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Dark Fire :)</div>
+  </div>
+</div>
+
 <h1 id="hi-i-m-dark-fire-aka-grim">Hi, I&#39;m @Dark Fire aka Grim</h1>
  My Discord:ÐŦ||🔥Ðâřҟ_Ŧﺂℜê🔥#7486 DM's open for all 😄
 <h3 id="about-me">ABOUT ME</h3>
