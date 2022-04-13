@@ -45,22 +45,22 @@ body{
   }
   .container .card:hover .card1{
     transform: translateY(0);
-    box-shadow: 0 0 50px #0097F6;
+    box-shadow: 0 0 40px #0097F6;
     background-color: #0097F6;   
   }
   .container .card:hover .card2{
     transform: translateY(0);
-    box-shadow: 0 0 50px #943DF6;
+    box-shadow: 0 0 40px #943DF6;
     background-color: #943DF6;   
   }
   .container .card:hover .card3{
     transform: translateY(0);
-    box-shadow: 0 0 50px #F7DB4D;
+    box-shadow: 0 0 40px #F7DB4D;
     background-color: #F7DB4D;   
   }
   .container .card:hover .card4{
     transform: translateY(0);
-    box-shadow: 0 0 50px #dd3434;
+    box-shadow: 0 0 40px #dd3434;
     background-color: #dd3434;   
   }
   .container .card .face.face1 .content{
