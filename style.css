@@ -10,6 +10,30 @@ body{
     align-items: center;
     font-family: 'Comfortaa', cursive;
   }
+
+  a:link {
+    color: cyan;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  a:active {
+    color: rgb(255, 102, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
   .container{
     width: 750px;
     position: relative;
