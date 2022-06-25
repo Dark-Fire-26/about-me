@@ -1,6 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
+@keyframes rotate{
+  5%{
+      opacity: 1;
+  }
+  10%,
+  20%{
+      opacity: 0;
+      transform: rotate(3deg);
+  }
+
+  15%{
+      transform: rotate(-1deg);
+  }
+  25%{
+      opacity: 0;
+      transform: rotate(10deg),translateY(90px);
+  }
+  30%{
+      transform: rotate(-3deg);
+  }
+  35%{
+      transform: rotate(1deg);
+  }
+}
+
+.title{
+  position: relative;
+  color: #fff;
+}
+
+.rotate{
+  display: inline;
+  margin-left: 10px;
+}
+
+.rotate span{
+  width: max-content;
+  position: absolute;
+  background-color: #0097F6;
+  padding-inline: 10px;
+  opacity: 0;
+  transform-origin: 10% 75%;
+  animation: rotate 12s
+  var(--d) linear infinite;
+}
+
 html{
   height: 100%;
   width: 100%;  
